@@ -1,0 +1,129 @@
+/* Tablet */
+@media screen and (max-width:992px) {
+
+    html,
+    body {
+        width: 100%;
+        overflow-x: hidden;
+        background: #FFFFFF;
+    }
+
+    nav .lines {
+        margin: 18px 0 0 15px;
+    }
+
+    nav .lines .line {
+        display: block;
+        width: 20px;
+        height: 1px;
+        margin: 7px 4px 5px 0;
+        background-color: #636363;
+        visibility: visible;
+    }
+
+    nav #logo {
+        margin: 25px 33% 0 33%;
+    }
+
+    #explore-btn,
+    #joinfree-btn,
+    .search_box,
+    ul {
+        visibility: hidden;
+    }
+
+    nav #ghostIcon {
+        display: inline-block;
+        margin-top: 22px;
+        font-size: 18px;
+        color: #1F1F1F;
+    }
+
+    .main-up {
+        min-height: 32vh;
+    }
+
+    /* LEFT SIDE */
+    main div.left {
+        flex: 65%;
+        padding: 50px 40px 0 90px;
+        color: #1F1F1F;
+    }
+
+    main div.left article {
+        width: 90%;
+        padding: 0;
+        text-align: justify;
+    }
+
+    main div.left article h1 {
+        text-align: left;
+    }
+
+    main div.left article p {
+        font-size: 19px;
+    }
+
+    #join-btn,
+    #try-btn {
+        margin-top: 25px;
+        height: 50px;
+        font-size: 16px;
+    }
+
+    #join-btn {
+        width: 160px;
+    }
+
+    #try-btn {
+        width: 245px;
+    }
+
+    /* RIGHT SIDE */
+    main div.right {
+        flex: 35%;
+        padding: 0 25px 0 0;
+    }
+
+    main div.right img {
+        width: 250px;
+        height: auto;
+        padding: 0;
+        margin-top: 80px;
+    }
+
+    /* BOTTOM */
+    .main-down {
+        width: 100%;
+    }
+
+    .div1 h3 {
+        font-weight: 400;
+    }
+
+    .div1 h3 a {
+        text-decoration: none;
+    }
+
+    .div2,
+    .div3,
+    .div4,
+    .div5 {
+        padding: 60px 20px;
+    }
+
+    .row-item {
+        width: 280px;
+        margin: 0 70px 0 50px;
+    }
+
+    /* footer */
+    footer {
+        display: block;
+        text-align: center;
+    }
+
+    footer p {
+        margin-bottom: 25px;
+    }
+}

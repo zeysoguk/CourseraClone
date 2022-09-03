@@ -1,0 +1,128 @@
+@media screen and (max-width:768px) {
+
+    html,
+    body {
+        width: 100%;
+        overflow-x: hidden;
+        background: #FFFFFF;
+    }
+
+    nav #logo {
+        width: 105px;
+        height: 16px;
+        margin: 25px 27% 0 27%;
+    }
+
+    #explore-btn,
+    #joinfree-btn,
+    .search_box,
+    ul {
+        visibility: hidden;
+    }
+
+    nav #ghostIcon {
+        display: inline-block;
+        margin-top: 22px;
+        font-size: 18px;
+        color: #1F1F1F;
+    }
+
+    .main-up {
+        min-height: 32vh;
+    }
+
+    /* LEFT SIDE */
+    main div.left {
+        flex: 65%;
+        padding: 30px 0 30px 35px;
+        color: #1F1F1F;
+    }
+
+    main div.left article {
+        width: 90%;
+        padding: 0;
+        text-align: center;
+    }
+
+    main div.left article h1 {
+        font-size: 44px;
+        line-height: 55px;
+    }
+
+    main div.left article p {
+        font-size: 19px;
+    }
+
+    #join-btn,
+    #try-btn {
+        width: 88%;
+        margin-top: 22px;
+        height: 50px;
+        font-size: 16px;
+    }
+
+    /* RIGHT SIDE */
+    main div.right {
+        display: none;
+    }
+
+    /* BOTTOM */
+    .main-down {
+        width: 100%;
+    }
+
+    .div1 h3 {
+        margin: 0 25px 0 25px;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .div1 h3 a {
+        text-decoration: none;
+    }
+
+    .div2,
+    .div3,
+    .div4,
+    .div5 {
+        padding: 60px 20px;
+    }
+
+    .row-item {
+        width: 280px;
+        height: 285px;
+        margin: 0 70px 0 50px;
+    }
+
+    .row img {
+        height: 125px;
+        margin-bottom: 25px;
+        object-fit: cover;
+    }
+
+    .row-item .row-title {
+        margin-top: 8px;
+    }
+
+    .div2 .div2-logos img,
+    .div4 .div4-logos img,
+    .div5 .div5-logos img {
+        width: 60px;
+        height: 60px;
+        margin: -70px 0 0 25px;
+        padding: 7px;
+        object-fit: contain;
+        border: 1px solid #e0dfdf;
+        border-radius: 4px;
+        background: white;
+    }
+
+    footer {
+        display: block;
+        text-align: center;
+    }
+
+    footer p {
+        margin-bottom: 25px;
+    }
+}
